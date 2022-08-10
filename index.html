@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <a href="https://www.aluracursos.com/"><img src="img/Logo.png" alt="logo alura" class="logo"></a>
+        </header>
+        <main>
+            <div class="textIn">
+                <div>
+                    <textarea id="textoIngresado" cols="20" rows="7" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="img/Alert.png" alt="símbolo de alerta">Solo ingresar letras minúsculas y sin acentos</img>
+                </div>
+                <div class="boton">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="textOut">
+                <div class="cuadro">
+                    <div class="cuadroVisto" id="visto">
+                        <div class="imagenMunieco">
+                            <img src="img/Muñeco.png" alt="persona mirando un diamante con una lupa">
+                        </div>
+                        <div class="mensajeNoEncontrado">
+                            <p>Ningún mensaje fue encontrado</p>
+                        </div>
+                        <div class="mensajeIngreseTexto">
+                            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                    </div>
+                    <div class="cuadroOculto" id="oculto">
+                        <textarea id="textoEncriptado" cols="20" rows="10" placeholder="Texto copiado!" readonly></textarea>
+                        <button id="copiarTexto">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logos">
+                <a href="https://www.linkedin.com/in/erick-ortiz-apc/"><img src="img/linkedIn.png" alt="logo linkedin"></a>
+                <a href="https://github.com/erick-ortiz-apc"><img src="img/github.png" alt="logo github"></a>
+            </div>
+            <div class="copyright">
+                <p>&copy Copyright Erick Ortiz - 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
