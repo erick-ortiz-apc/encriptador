@@ -250,7 +250,7 @@ footer img:hover{
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 690px){
+@media only screen and (min-width: 360px) and (max-width: 767px){
     .textIn{
         width: 100%;
         height: 520px;
