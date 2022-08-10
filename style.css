@@ -202,7 +202,7 @@ footer img:hover{
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
     .textIn{
         width: 100%;
     }
@@ -250,7 +250,7 @@ footer img:hover{
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
     .textIn{
         width: 100%;
         height: 520px;
@@ -281,7 +281,7 @@ footer img:hover{
 
     #desencriptar{
         width: 343px;
-        margin: 1em auto;
+        margin: 1.5em auto;
     }
 
     .textOut{
