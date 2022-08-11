@@ -10,7 +10,7 @@ var botonEncriptar = document.getElementById("encriptar"),
 function condicionTexto(x){
     var key = x.keyCode || x.which,
         tecla = String.fromCharCode(key).toString(),
-        parametros = "abcdefghijklmnñopqrstuvwxyz",
+        parametros = "abcdefghijklmnñopqrstuvwxyz ",
         enterDelete = [8,13],
         tecla_enterDelete = false;
 
